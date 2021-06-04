@@ -1,17 +1,18 @@
 # Proof of Security of Mutual Authentication and Key Exchange in the L-band Digital Aeronautical Communication System LDACS
 
-The contribution of this paper is the formal proof of the security of this protocol. Using the symbolic model checker Tamarin, we could build a mathematical, formal model of the LDACS MAKE procedure and following several security objectives that this procedure must fulfill, we derived several provable lemmata for Tamarin. Tamarin finally proved that the LDACS MAKE procedure is secure in the standard model and is proven to have no design flaws in its architecture.
-This constitutes an important step for the development of the general LDACS cybersecurity architecture since authentication and key establishment are the most crucial steps in establishing secure wireless communication.
+Aeronautical communications systems are currently undergoing a modernization process. Analogue legacy systems shall be replaced with modern digital alternatives, offering higher bandwidth, increasing capacity and paving the way for Unmanned Aeronautical Vehicles (UAVs). One modern candidate technology is the L-band Digital Aeronautical Communications System (LDACS), enabling long-range safety-critical digital communications between aircraft and ground. As with any modern wireless communications system, LDACS is prone to cyber-attacks. These issues were addressed in former research, where a secure cell-attachment procedure for LDACS, based on a modified Station to Station (STS) Mutual Authentication and Key Establishment (MAKE) protocol, was proposed. However, as of now, its security has not been proven. The contribution of this paper is the formal verification of the executability and security of the LDACS cell-attachment procedure using the symbolic model checker Tamarin. The achieved results proved that the suggested cell-attachment procedure for LDACS is workable and enables secure communication between aircraft and ground.
 
 ## Authors: 
 
 Nils Mäurer, Thomas Gräupl: Institute of Communication and Navigation, German Aerospace Center (DLR), Wessling, Germany
 
-Christoph Gentsch, Rohan Krishnamurthy: Institute of Data Science, German Aerospace Center (DLR), Jena, Germany
+Christoph Gentsch: Institute of Data Science, German Aerospace Center (DLR), Jena, Germany
+
+Corinna Schmitt: Research Institute CODE, Universität der Bundeswehr München, Neubiberg, Germany
 
 ## **Paper**
 
-- Conference details for publication
+- Mäurer, N., Gentsch, C., Gräupl, T. and Schmitt, C. "Formal Security Verification of the Station-to-Station based Cell-attachment Procedure of LDACS.", In Proceedings of the 18th International Conference on Security and Cryptography (SECRYPT 2021) 
 
 ## **File structure:**
 
